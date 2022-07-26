@@ -1,0 +1,69 @@
+.mobile-nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.mobile-nav.active {
+    display: block;
+    display: flex;
+}
+.mobile-nav-logo {
+    width: 100px;
+    height: 30px;
+}
+.mobile-nav-list li + li {
+    margin-top: 30px;
+}
+.mobile-nav-list li a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;  
+    color: #292929;
+}
+.mobile-btn-container {
+    display: flex;
+    align-items: center;
+}
+.mobile-btn-container .sign-btn {
+    width: 59px;
+    height: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.mobile-btn-container .start-btn {
+    width: 170px;
+    height: 50px;
+    border-radius: 4px;
+    top: 18px;
+    padding: 13px 20px;
+    background: #01996D;
+    border: none;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.mobile-btn-container > * + * {
+    margin-left: 30px;
+}

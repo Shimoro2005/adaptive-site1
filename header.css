@@ -1,0 +1,207 @@
+.header {
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 1px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #D6D6D6;
+}
+.header .left {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.logo {
+    width: 79.57px;
+    height: 23.04px;
+    margin-right: 125px;
+    margin-left: 100px;
+}
+.header .left .nav-menu {
+    width: 450px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .left .nav-menu li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;  
+    color: #292929;
+}
+.header .right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header .btn-container {
+    width: 277px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .btn-container .sign-btn {
+    width: 59px;
+    height: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.header .btn-container .start-btn {
+    width: 163px;
+    height: 45px;
+    border-radius: 4px;
+    top: 18px;
+    padding: 13px 20px;
+    background: #01996D;
+    border: none;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+@media (max-width:1200px) {
+    .header {
+        width: 1200px;
+    }
+    .logo {
+        margin-right: 100px;
+    }
+    .header .btn-container {
+        justify-content: flex-start;
+    }
+    .header .btn-container .sign-btn {
+        margin-right: 35px;
+    }
+}
+@media (max-width:1024px) {
+    .header {
+        width: 1024px;
+    }
+    .logo {
+        width: 76.57px;
+        height: 20.04px;
+        margin-right: 60px;
+    }
+    .header .left .nav-menu {
+        width: 400px;
+    }
+    .header .btn-container {
+        justify-content: flex-start;
+    }
+    .header .btn-container .sign-btn {
+        font-size: 15px;
+    }
+    .header .btn-container .start-btn {
+        width: 155px;
+        height: 38px;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:768px) {
+    .header {
+        width: 768px;
+    }
+    .header .left {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        margin-right: 30px;
+        margin-left: 70px;
+    }
+    .header .left .nav-menu {
+        width: 300px;
+    }
+    .header .left .nav-menu li a{
+        font-size: 14px;
+    }
+    .header .right {
+        width: 35%;
+    }
+    .header .btn-container {
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+    .header .btn-container .sign-btn {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .header .btn-container .start-btn {
+        width: 150px;
+        height: 33px;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}
+@media (max-width:480px) {
+    .header {
+        width: 480px;
+        display: flex;
+        align-items: center;
+    }
+    .header .left {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        margin-right: 30px;
+        margin-left: 70px;
+    }
+    .header .left .nav-menu {
+        width: 300px;
+        display: none;
+    }
+    .header .left .nav-menu li a{
+        font-size: 14px;
+    }
+    .header .right {
+        width: 35%;
+        display: none;
+    }
+    .header .btn-container {
+        justify-content: flex-start;
+        padding-left: 15px;
+        display: none;
+    }
+    .header .btn-container .sign-btn {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .header .btn-container .start-btn {
+        width: 150px;
+        height: 33px;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}
+@media (max-width:320px) {
+    .header {
+        width: 320px;
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,634 @@
+.how-it-works {
+    width: 100%;
+    height: 200vh;
+    padding-top: 100px;
+    padding-bottom: 51px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+.how-it-works-header {
+    display: flex;
+    justify-content: space-between;
+}
+.how-it-works-header-head {
+    width: 584px;
+}
+.how-it-works-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 157%;
+    margin-bottom: -3px;
+    font-family: 'Lato',serif;
+}
+.how-it-works-subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 157%;
+    font-family: 'Georgia', serif;
+    color: #01996D;
+}
+.how-it-works-header-content {
+    width:671px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+.how-it-works-header-content p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #424242;
+}
+.how-it-works-steps {
+    width: 100%;
+    height: 1386px;
+    display: flex;
+}
+.step1 {
+    width: 325px;
+    height: 850px;
+    margin-bottom: 255px;
+    margin-top: 52px;
+    margin-right: 55px;
+    position: relative;
+}
+.how-it-work-steps-step-title1 {
+    width: 100%;
+    height: 225px;
+}
+.how-it-work-steps-step-title1 h1 {
+    width: 157px;
+    height: 225px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 145px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    z-index: -1;
+}
+.how-it-work-steps-step-title1 h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+    position: absolute;
+    margin-top: -90px;
+    margin-left:90px;
+    margin-bottom: 55px;
+}
+.how-it-work-steps-step-subtitle1 {
+    width: 325px;
+    height: 150px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424242;
+    margin-bottom: 60px;
+}
+.how-it-work-steps-step-img1 {
+    width: 323px;
+    height: 405px;
+}
+.how-it-work-steps-step-img1 .bg-img {
+    width: 323px;
+    height: 405px;
+    border-radius: 12px;
+    object-fit: cover;
+    z-index: -1;
+}
+.how-it-work-steps-step-img1 .bg-in-img {
+    width: 150px;
+    height: 115px;
+    position: absolute;
+    z-index: 1;
+    bottom: 112px;
+    left: 173px;
+}
+.step2 {
+    width: 325px;
+    height: 767px;
+    margin-top: 293px;
+    margin-right: 63px;
+}
+.how-it-work-steps-step-title2 {
+    width: 100%;
+    height: 225px;
+}
+.how-it-work-steps-step-title2 h1 {
+    width: 176px;
+    height: 225px; 
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 145px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    z-index: -1;
+}
+.how-it-work-steps-step-title2 h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+    position: absolute;
+    margin-top: -90px;
+    margin-left:65px;
+    margin-bottom: 55px;
+}
+.how-it-work-steps-step-subtitle2 {
+    width: 325px;
+    height: 90px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424242;
+    margin-bottom: 37px;
+}
+.how-it-work-steps-step-img2{
+    width: 323px;
+    height: 405px;
+    border-radius: 12px;
+}
+.how-it-work-steps-step-img2 img {
+    width: 323px;
+    height: 405px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.step3 {
+    width: 325px;
+    height: 769px;
+    margin-top: 110px;
+    margin-bottom: 282px;
+}
+.how-it-work-steps-step-title3 {
+    width: 100%;
+    height: 225px;
+}
+.how-it-work-steps-step-title3 h1 {
+    width: 175px;
+    height: 225px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 145px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    z-index: -1;
+}
+.how-it-work-steps-step-title3 h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+    position: absolute;
+    margin-top: -90px;
+    margin-left:125px;
+    margin-bottom: 46px;
+}
+.how-it-work-steps-step-subtitle3 {
+    width: 325px;
+    height: 90px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424242;
+    margin-bottom: 48px;
+}
+.how-it-work-steps-step-img3 {
+    width: 323px;
+    height: 405px;
+    border-radius: 12px;
+}
+.how-it-work-steps-step-img3 img {
+    width: 323px;
+    height: 405px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+@media (max-width:1200px) {
+    .how-it-works {
+        padding-top: 50px;
+        padding-left:100px;
+        padding-right: 100px;
+    }
+    .how-it-works-title {
+        font-size: 18px;
+    }
+    .how-it-works-subtitle {
+        font-size: 35px;
+    }
+    .how-it-works-header-content {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .how-it-works-header-content p {
+        width: 500px;
+        font-size: 16px;
+    }
+    .step1 {
+        width: 300px;
+        height: 700px;
+        margin-right: 35px;
+        margin-bottom: 255px;
+        margin-top: 52px;
+    }
+    .how-it-work-steps-step-title1 h1 {
+        height: 200px;
+    }
+    .how-it-work-steps-step-title1 h3 {
+        margin-top: -70px;
+    }
+    .how-it-work-steps-step-subtitle1 {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .how-it-work-steps-step-img1 {
+        width: 299px;
+        height: 310px;
+    }
+    .how-it-work-steps-step-img1 .bg-img {
+        width: 299px;
+        height: 310px;
+    }
+    .how-it-work-steps-step-img1 .bg-in-img {
+        width: 140px;
+        height: 110px;
+        left: 160px;
+        bottom: 63px;
+    }
+    .step2 {
+        width: 300px;
+        height: 617px;
+        margin-right: 35px;
+        margin-top: 160px;
+    }
+    .how-it-work-steps-step-title2 h1 {
+        width: 176px;
+        height: 200px; 
+    }
+    .how-it-work-steps-step-title2 h3 {
+        margin-top: -70px;
+        margin-left:65px;
+    }
+    .how-it-work-steps-step-title2 h3 {
+        font-size: 23px;
+    }
+    .how-it-work-steps-step-subtitle2 {
+        width: 300px;
+        height: 110px;
+        margin-bottom: 10px;
+    }
+    .how-it-work-steps-step-img2{
+        width: 299px;
+        height: 270px;
+    }
+    .how-it-work-steps-step-img2 img {
+        width: 299px;
+        height: 270px;
+    }
+    .step3 {
+        width: 300px;
+        height: 619px;
+        margin-top: 110px;
+        margin-bottom: 282px;
+    }
+    .how-it-work-steps-step-title3 {
+        width: 100%;
+        height: 225px;
+    }
+    .how-it-work-steps-step-title3 h1 {
+        width: 175px;
+        height: 200px;
+    }
+    .how-it-work-steps-step-title3 h3 {
+        margin-top: -70px;
+    }
+    .how-it-work-steps-step-subtitle3 {
+        width: 300px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .how-it-work-steps-step-img3 {
+        width: 299px;
+        height: 290px;
+    }
+    .how-it-work-steps-step-img3 img {
+        width: 299px;
+        height: 290px;
+    }
+}
+@media (max-width:1024px) {
+    .how-it-works {
+        padding-top: 50px;
+        padding-left:100px;
+        padding-right: 100px;
+    }
+    .how-it-works-title {
+        font-size: 16px;
+    }
+    .how-it-works-subtitle {
+        font-size: 27px;
+    }
+    .how-it-works-header-content {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .how-it-works-header-content p {
+        width: 500px;
+        font-size: 14.5px;
+    }
+    .how-it-works-steps {
+        height: 850px;
+        padding: 15px;
+    }
+    .step1 {
+        width: 250px;
+        height: 700px;
+        margin-right: 20px;
+        margin-bottom: 255px;
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .how-it-work-steps-step-title1 h1 {
+        height: 150px;
+        font-size: 120px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .how-it-work-steps-step-title1 h3 {
+        margin-top: -50px;
+        margin-left: 70px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .how-it-work-steps-step-subtitle1 {
+        width: 250px;
+        margin-bottom: 10px;
+        margin-top: -50px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-it-work-steps-step-img1 {
+        width: 250px;
+        height: 310px;
+    }
+    .how-it-work-steps-step-img1 .bg-img {
+        width: 250px;
+        height: 310px;
+    }
+    .how-it-work-steps-step-img1 .bg-in-img {
+        width: 117px;
+        height: 85px;
+        left: 133px;
+        bottom: 80px;
+    }
+    .step2 {
+        width: 250px;
+        height: 617px;
+        margin-right: 20px;
+        margin-top: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .how-it-work-steps-step-title2 h1 {
+        height: 150px;
+        font-size: 120px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .how-it-work-steps-step-title2 h3 {
+        margin-left:65px;
+        margin-top: -50px;
+        font-size: 18px;
+    }
+    .how-it-work-steps-step-subtitle2 {
+        width: 250px;
+        margin-bottom: 10px;
+        margin-top: -50px;
+        height: 110px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-it-work-steps-step-img2{
+        width: 250px;
+        height: 270px;
+    }
+    .how-it-work-steps-step-img2 img {
+        width: 250px;
+        height: 270px;
+    }
+    .step3 {
+        width: 250px;
+        height: 619px;
+        margin-top: 90px;
+        margin-bottom: 282px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .how-it-work-steps-step-title3 {
+        width: 100%;
+        height: 225px;
+    }
+    .how-it-work-steps-step-title3 h1 {
+        height: 150px;
+        font-size: 120px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .how-it-work-steps-step-title3 h3 {
+        margin-top: -40px;
+        margin-left: 100px;
+        font-size: 18px;
+    }
+    .how-it-work-steps-step-subtitle3 {
+        font-size: 14px;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -60px;
+    }
+    .how-it-work-steps-step-img3 {
+        width: 250px;
+        height: 290px;
+    }
+    .how-it-work-steps-step-img3 img {
+        width: 250px;
+        height: 290px;
+    }
+}
+@media (max-width:768px) {
+    .how-it-works {
+        height: 300vh;
+        padding-top: 50px;
+        padding-left:70px;
+        padding-right: 70px;
+    }
+    .how-it-works-title {
+        font-size: 14px;
+    }
+    .how-it-works-subtitle {
+        font-size: 21px;
+    }
+    .how-it-works-header-content {
+        padding-bottom: 5px;
+    }
+    .how-it-works-header-content p {
+        width: 360px;
+        font-size: 12px;
+    }
+    .how-it-works-steps {
+        height: 97.5%;
+        padding-left: 50px;
+        flex-wrap: wrap;
+    }
+    .step1 {
+        height: 617px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+    .how-it-work-steps-step-img1 {
+        height: 290px;
+    }
+    .how-it-work-steps-step-img1 .bg-img {
+        height: 290px;
+    }
+    .how-it-work-steps-step-img1 .bg-in-img {
+        width: 117px;
+        height: 85px;
+        left: 133px;
+        bottom: 80px;
+    }
+    .step2 {
+        height: 617px;
+        margin-top: 15px;
+    }
+    .how-it-work-steps-step-img2{
+        height: 290px;
+    }
+    .how-it-work-steps-step-img2 img {
+        height: 290px;
+    }
+    .step3 {
+        height: 617px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-left: 145px;
+    }
+    .how-it-work-steps-step-img3 {
+        height: 290px;
+    }
+    .how-it-work-steps-step-img3 img {
+        height: 290px;
+    }
+}
+@media (max-width: 480px) {
+    .how-it-works {
+        height: 450vh;
+        padding-left: 70px;
+    }
+    .how-it-works-header {
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .how-it-works-subtitle {
+        width: 150px;
+        font-size: 16px;
+    }
+    .how-it-works-header-content p {
+        width: 250px;
+        font-size: 12px;
+    }
+    .step3 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+}
+@media (max-width:320px) {
+    .how-it-works {
+        width: 320px;
+        height: 500vh;
+        padding-left: 0px;
+    }
+    .how-it-works-header {
+        width: 320px;
+        height: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column;
+        padding-left: 70px;
+    }
+    .how-it-works-header-head {
+        width: 100%;
+    }
+    .how-it-works-subtitle {
+        width: 150px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .how-it-works-header-content p {
+        width: 80%;
+        height: 100%;
+        margin-left: 355px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .how-it-works-steps {
+        width: 320px;
+        height: 97.5%;
+        padding-left: 35px;
+        flex-wrap: wrap;
+        padding-bottom: 120px;
+    }
+    .step3 {
+        height: 617px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .how-it-work-steps-step-img3 {
+        height: 290px;
+    }
+    .how-it-work-steps-step-img3 img {
+        height: 290px;
+    }
+}
